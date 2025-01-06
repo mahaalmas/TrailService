@@ -116,4 +116,3 @@ api.add_resource(TrailResource, '/trails', '/trails/<int:trail_id>')
 if __name__ == '__main__':
     db.create_all()  # Create tables if they don't exist
     app.run(debug=True, host='0.0.0.0')
-
